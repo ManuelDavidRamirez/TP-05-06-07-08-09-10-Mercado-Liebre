@@ -26,6 +26,7 @@ body header p{
 body header nav ul li a{
     text-decoration: none;
     list-style: none;
+    color: black;
 }
 
 .burger-menu{
@@ -35,7 +36,8 @@ body header nav ul li a{
     font-size: 20px;
     border-radius: 10px;
     padding: 2%;
-    margin-inline: 170px;
+    margin: 0 auto;
+    width: 20px;
 }
 
 h2{
@@ -65,6 +67,10 @@ footer section div {
 footer section p{
     color: #666;
     margin-inline: 20px;
+}
+
+h3 {
+    color: #666;
 }
 
 .copyright{
