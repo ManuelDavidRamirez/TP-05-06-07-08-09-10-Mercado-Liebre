@@ -1,0 +1,25 @@
+footer section{
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 20px
+}
+
+footer section div {
+    color: var(--colorCeleste);
+    font-size: 30px;
+    margin: 5px;
+}
+
+footer section p{
+    color: var(--colorGrisOscuro);
+    margin: 0 20px;
+}
+
+footer section h3 {
+    color: var(--colorGrisOscuro);
+}
+
+.copyright{
+    color: var(--colorGrisOscuro);
+    margin: 20px;
+}

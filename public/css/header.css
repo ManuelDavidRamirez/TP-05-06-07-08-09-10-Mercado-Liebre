@@ -1,0 +1,35 @@
+header{
+    background-color: var(--colorAmarillo);
+    font-size: 12px;
+}
+
+header img{
+    padding-top: 8%;
+    padding-left: 8%;
+}
+
+#busqueda{
+    padding: 5%;
+}
+
+header p{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.burger-menu{
+    color: white;
+    background-color: var(--colorCeleste);
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 0 auto;
+    width: 20px;
+}
