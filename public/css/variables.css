@@ -5,4 +5,10 @@
     --colorGrisOscuro: #666;
     --colorGrisClaro: #ebebeb;
     --colorVerde: #39b54a;
+
+    --familia: 'Roboto', sans-serif;
+    --cuerposDeTexto: 12px;
+    --titulares: 24px;
+    --precios: 18px;
+    --descuentosYDescripciones: 16px;
 }
