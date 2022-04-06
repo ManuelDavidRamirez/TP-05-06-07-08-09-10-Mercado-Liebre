@@ -17,8 +17,11 @@ header p{
     margin-bottom: 5%;
 }
 
-header nav ul li a{
+header nav{
     display: none;
+}
+
+header nav ul li a{
     text-decoration: none;
     list-style: none;
     color: black;
@@ -36,17 +39,7 @@ header nav ul li a{
 }
 
 @media(min-width: 361px){
-    header nav ul li a{
-        display: block;
-    }
-
-    .burger-menu{
-        display: none;
-    }
-}
-
-@media(min-width: 769px){
-    header nav ul li a{
+    header nav{
         display: block;
     }
 

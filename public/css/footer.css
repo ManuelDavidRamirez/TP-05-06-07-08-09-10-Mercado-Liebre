@@ -22,4 +22,5 @@ footer section h3 {
 .copyright{
     color: var(--colorGrisOscuro);
     margin: 20px;
+    font-size: 12px;
 }

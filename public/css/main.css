@@ -18,7 +18,7 @@ main section article {
 }
 
 main section article .detalles {
-    padding: 0 15px;
+    padding: 15px 15px;
     border: 1px solid var(--colorGrisClaro)
 }
 
@@ -52,15 +52,6 @@ main section article .detalles h4{
         display: block;
     }
     
-    main section article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
-}
-
-@media(min-width: 769px){
-    main section article .detalles h4{
-        display: block;
-    }
     main section article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
