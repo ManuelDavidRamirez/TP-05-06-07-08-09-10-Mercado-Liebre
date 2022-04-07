@@ -17,19 +17,24 @@ main section article {
     margin: 10px 0;
 }
 
-main section article .detalles {
-    padding: 15px 15px;
-    border: 1px solid var(--colorGrisClaro)
+main section article i {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--colorVerde) ;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
 }
 
-main section article .detalles .camion {
-    color: var(--colorVerde);
-    padding: 20px;
-    border: 1px solid var(--colorVerde);
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    font-size: 20px;
+main section article .detalles {
+    padding: 15px 15px;
+    border: 1px solid var(--colorGrisClaro);
+    position: relative;
 }
 
 main section article .detalles p{
