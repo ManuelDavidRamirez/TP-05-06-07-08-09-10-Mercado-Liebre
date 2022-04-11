@@ -62,7 +62,7 @@ main section article .detalles h4{
 }
 
 /* Tablet */
-@media(min-width: 425px){
+@media(min-width: 426px){
     
     main section{
         display: flex;

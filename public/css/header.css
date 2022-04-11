@@ -3,13 +3,22 @@ header{
     font-size: 12px;
 }
 
+header .logo-busqueda{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 header img{
-    padding-top: 8%;
-    padding-left: 8%;
+    margin: 15px;
+    width: 30%;
+    flex-grow: 0.50;
 }
 
 #busqueda{
-    padding: 5%;
+    margin: 15px;
+    width: 30%;
+    flex-grow: 0.50;
 }
 
 header p{
@@ -39,7 +48,7 @@ header nav ul li a{
 }
 
 /* Tablet */
-@media(min-width: 425px){
+@media(min-width: 426px){
     header nav{
         display: block;
     }
