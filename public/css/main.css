@@ -61,7 +61,8 @@ main section article .detalles h4{
     color: var(--colorGrisOscuro);
 }
 
-@media(min-width: 361px){
+/* Tablet */
+@media(min-width: 425px){
     
     main section{
         display: flex;
@@ -71,7 +72,7 @@ main section article .detalles h4{
     
     main section article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
-        width: 45%;
+        width: 47%;
     }
     
     main section article .detalles h4{
@@ -79,6 +80,8 @@ main section article .detalles h4{
     }
 }
 
-@media(min-width: 769px){
-
+@media(min-width: 1024px){
+    main section article{
+        width: 22%;
+    }
 }

@@ -38,7 +38,8 @@ header nav ul li a{
     width: 35px;
 }
 
-@media(min-width: 361px){
+/* Tablet */
+@media(min-width: 425px){
     header nav{
         display: block;
     }
