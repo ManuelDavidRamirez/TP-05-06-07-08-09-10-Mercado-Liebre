@@ -7,6 +7,7 @@ header .logo-busqueda{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 header img{
@@ -16,14 +17,12 @@ header img{
 }
 
 #busqueda{
-    margin: 15px;
     width: 30%;
     flex-grow: 0.50;
 }
 
 header p{
     text-align: center;
-    margin-bottom: 5%;
 }
 
 header nav{
@@ -49,6 +48,14 @@ header nav ul li a{
 
 /* Tablet */
 @media(min-width: 426px){
+    header img{
+        flex-grow: 0;
+    }
+    
+    #busqueda{
+        flex-grow: 0;
+    }
+    
     header nav{
         display: block;
     }
