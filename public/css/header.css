@@ -29,6 +29,10 @@ header nav{
     display: none;
 }
 
+header nav ul{
+    list-style: none;
+}
+
 header nav ul li a{
     text-decoration: none;
     list-style: none;
@@ -57,7 +61,15 @@ header nav ul li a{
     }
     
     header nav{
-        display: block;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header nav ul{
+        display: flex;
+        justify-content: space-around;
+        width: 35%;
+        padding-top: 15px;
     }
 
     .burger-menu{
