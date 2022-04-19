@@ -1,25 +1,25 @@
-main {
+.home {
     background-color: var(--colorGrisClaro);
 }
 
-main section {
+.home section {
     width: 90%;
     margin: 0 auto;
 }
 
-main section h2{
+.home section h2{
     color: var(--colorGrisOscuro);
     font-size: 24px;
     margin: 10px 0;
     width: 100%;
 }
 
-main section article {
+.home section article {
     background-color: white;
     margin: 10px 0;
 }
 
-main section article i {
+.home section article i {
     display: block;
     font-size: 16px;
     padding: 5px;
@@ -33,29 +33,29 @@ main section article i {
     top: -15px;
 }
 
-main section article .detalles {
+.home section article .detalles {
     padding: 15px 15px;
     border: 1px solid var(--colorGrisClaro);
     position: relative;
 }
 
-main section article .detalles .precio-oferta{
+.home section article .detalles .precio-oferta{
     display: flex;
     margin-bottom: 20px;
 }
 
-main section article .detalles p{
+.home section article .detalles p{
     font-size: var(--precios);
     flex-grow: 0.30;
 }
 
-main section article .detalles span{
+.home section article .detalles span{
     font-size: var(--descuentosYDescripciones);
     color: var(--colorVerde);
     flex-grow: 0.70;
 }
 
-main section article .detalles h4{  
+.home section article .detalles h4{  
     display: none;
     font-size: var(--precios);
     color: var(--colorGrisOscuro);
@@ -64,24 +64,24 @@ main section article .detalles h4{
 /* Tablet */
 @media(min-width: 426px){
     
-    main section{
+    .home section{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
     
-    main section article{
+    .home section article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
         width: 47%;
     }
     
-    main section article .detalles h4{
+    .home section article .detalles h4{
         display: block;
     }
 }
 
 @media(min-width: 1024px){
-    main section article{
+    .home section article{
         width: 22%;
     }
 }

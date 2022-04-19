@@ -1,0 +1,41 @@
+.register{
+    background-color: var(--colorGrisClaro);
+}
+
+.register section{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.register section .formBox{
+    margin: 10px 0;
+}
+
+.register section .formBox input{
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5%;
+}
+
+.register section .radio div{
+    margin: 20px 20px;
+}
+
+.register section .checkbox div{
+    margin: 20px 20px;
+}
+
+.register section .buttons{
+    text-align: center;
+    margin: 20px;
+}
+
+.register section .buttons a{
+    color: white;
+    background-color: var(--colorCeleste);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2%;
+}
