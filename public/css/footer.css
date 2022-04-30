@@ -24,3 +24,20 @@ footer section h3 {
     margin: 20px;
     font-size: 12px;
 }
+
+@media(min-width: 1024px) {
+    
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    footer section{
+        width: 33%;
+    }
+    
+    .copyright{
+        width: 100%;
+        text-align: center;
+    }
+}

@@ -3,25 +3,22 @@
 }
 
 .login section{
-    width: 80%;
-    margin: 20px auto;
+    padding: 10px 30px;
 }
 
 .login section .formBox{
-    margin: 10px 0;
+    padding: 15px 0;
 }
 
 .login section .formBox input{
-    margin: 5px 0;
     padding: 10px;
     width: 100%;
     border: none;
-    border-radius: 5%;
 }
 
 .login section .buttons{
     text-align: center;
-    margin: 20px;
+    padding: 10px;
 }
 
 .login section .buttons a{
@@ -30,4 +27,26 @@
     text-decoration: none;
     border-radius: 5px;
     padding: 2%;
+}
+
+@media (min-width: 768px) {
+
+    .login section{
+        padding: 15px 60px;
+    }
+
+    .login section .buttons{
+        padding: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .login section{
+        padding: 15px 150px;
+    }
+
+    .login section .buttons{
+        padding: 30px;
+    }
 }
