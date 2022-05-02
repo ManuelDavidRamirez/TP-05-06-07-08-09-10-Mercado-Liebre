@@ -69,19 +69,23 @@
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    
-    .home section article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-        width: 47%;
-    }
-    
-    .home section article .detalles h4{
-        display: block;
-    }
 }
 
 @media(min-width: 1024px){
     .home section article{
         width: 22%;
+    }
+
+    .home section article i:hover{
+        transform: rotate(-90deg);
+        transition: all 1s;
+    }
+
+    .home section article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .home section article:hover h4{
+        display: block;
     }
 }

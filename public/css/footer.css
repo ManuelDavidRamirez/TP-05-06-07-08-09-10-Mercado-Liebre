@@ -36,6 +36,10 @@ footer section h3 {
         width: 33%;
     }
     
+    footer section div:hover{
+        color: #0022AA;
+    }
+
     .copyright{
         width: 100%;
         text-align: center;

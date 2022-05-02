@@ -49,4 +49,8 @@
     .login section .buttons{
         padding: 30px;
     }
+
+    .login section .buttons a:hover{
+        background-color: #0022AA;
+    }
 }
